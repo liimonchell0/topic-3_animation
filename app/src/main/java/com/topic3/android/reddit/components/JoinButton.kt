@@ -32,7 +32,7 @@ fun JoinButton(onClick: (Boolean) -> Unit = {}){
     val shape = RoundedCornerShape(corner = CornerSize(12.dp))
 
 
-    val buttonBackgroundColor: androidx.compose.ui.graphics.Color =
+    val buttonBackgroundColor: Color =
         if (buttonState == JoinButtonState.PRESSED)
             Color.White else
                 Color.Blue
